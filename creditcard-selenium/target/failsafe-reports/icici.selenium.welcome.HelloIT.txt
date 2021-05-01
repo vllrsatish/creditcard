@@ -1,0 +1,26 @@
+-------------------------------------------------------------------------------
+Test set: icici.selenium.welcome.HelloIT
+-------------------------------------------------------------------------------
+Tests run: 1, Failures: 0, Errors: 1, Skipped: 0, Time elapsed: 1.644 sec <<< FAILURE! - in icici.selenium.welcome.HelloIT
+testHelloWorld(icici.selenium.welcome.HelloIT)  Time elapsed: 0.005 sec  <<< ERROR!
+org.springframework.beans.factory.UnsatisfiedDependencyException: 
+Error creating bean with name 'icici.selenium.welcome.HelloIT': Unsatisfied dependency expressed through field 'webDriver'; nested exception is org.springframework.beans.factory.BeanCreationException: Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SATISH-PC', ip: '192.168.244.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.springframework.beans.factory.BeanCreationException: 
+Error creating bean with name 'webDriver' defined in class path resource [META-INF/spring/seleniumContext.xml]: Instantiation of bean failed; nested exception is org.springframework.beans.BeanInstantiationException: Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SATISH-PC', ip: '192.168.244.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.springframework.beans.BeanInstantiationException: 
+Failed to instantiate [org.openqa.selenium.firefox.FirefoxDriver]: Constructor threw exception; nested exception is org.openqa.selenium.WebDriverException: Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SATISH-PC', ip: '192.168.244.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: FirefoxDriver
+Caused by: org.openqa.selenium.WebDriverException: 
+Cannot find firefox binary in PATH. Make sure firefox is installed. OS appears to be: WIN10
+Build info: version: '3.141.59', revision: 'e82be7d358', time: '2018-11-14T08:17:03'
+System info: host: 'SATISH-PC', ip: '192.168.244.1', os.name: 'Windows 10', os.arch: 'amd64', os.version: '10.0', java.version: '1.8.0_291'
+Driver info: driver.version: FirefoxDriver
+
